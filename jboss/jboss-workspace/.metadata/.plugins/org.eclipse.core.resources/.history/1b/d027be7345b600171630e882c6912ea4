@@ -1,0 +1,67 @@
+package com.sgatius.servlet;
+
+import java.io.IOException;
+import java.sql.Connection;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import com.sgatius.db.DBConnection;
+import com.sgatius.singleton.Currentuser;
+
+/**
+ * Servlet implementation class LoginServlet
+ */
+@WebServlet("/LoginServlet")
+public class LoginServlet extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+
+	/**
+	 * @see HttpServlet#service(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		String username = request.getParameter("username");
+		String password = request.getParameter("password");
+		Connection con = DBConnection.getMySQLConnection();
+		Statement statement = null;
+		ResultSet rs = null;
+		
+		String query = "SELECT * FROM Users WHERE username = '" + username + "' AND password = '" + password +"'";
+		String queryRole = "SELECT role FROM UserRoles WHERE username = '" + username + "'";
+		
+		try {
+			statement = con.createStatement();
+			rs = statement.executeQuery(query);
+			if(rs.next()) {
+				Statement stRole = con.createStatement();
+				ResultSet rRole = stRole.executeQuery(queryRole);
+				if(rRole.next()) {
+					String role = rRole.getString(1);
+					switch (role) {
+						case "ADMIN":
+							Currentuser.getInstance(username, password, role);
+							response.sendRedirect("./admin/welcome.html");
+							break;
+						case "USER":
+							Currentuser.getInstance(username, password, role);
+							response.sendRedirect("./user/welcome.html");
+							break;
+					}
+					/*if(role.equals("ADMIN")) {
+						response.sendRedirect("./admin/welcome.html");
+					}*/
+				}
+			}
+			
+		}catch (SQLException e) {
+			e.printStackTrace();
+		}
+	}
+
+}

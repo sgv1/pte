@@ -1,0 +1,90 @@
+2017-10-14 15:50:32,322 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 37) WFLYIO001: Worker 'default' has auto-configured to 16 core threads with 128 task threads based on your 8 available processors
+2017-10-14 15:50:32,329 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 54) WFLYTX0013: La propiedad del identificador de nodos está configurada con el valor predeterminado. Por favor asegúrese de que sea única.
+2017-10-14 15:50:32,337 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 46) WFLYNAM0001: Activando el sub-sistema de nombrado
+2017-10-14 15:50:32,340 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 44) WFLYJSF0007: Se activaron las siguientes implementaciones JSF: [main]
+2017-10-14 15:50:32,373 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 38) WFLYCLINF0001: Activando el sub-sistema Infinispan.
+2017-10-14 15:50:32,414 INFO  [org.jboss.as.connector] (MSC service thread 1-2) WFLYJCA0009: Iniciando JCA sub-sistema (WildFly/IronJacamar 1.3.3.Final-redhat-1)
+2017-10-14 15:50:32,512 INFO  [org.jboss.as.naming] (MSC service thread 1-3) WFLYNAM0003: Iniciando el servicio de nombrado
+2017-10-14 15:50:32,512 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-7) WFLYMAIL0001: Sesión de correo enlazada [java:jboss/mail/Default]
+2017-10-14 15:50:32,786 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 56) WFLYWS0002: Activando WebServices Extension
+2017-10-14 15:50:32,826 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 53) WFLYSEC0002: Activando el sub-sistema de seguridad
+2017-10-14 15:50:32,865 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0003: Undertow 1.3.21.Final-redhat-1 starting
+2017-10-14 15:50:32,865 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 55) WFLYUT0003: Undertow 1.3.21.Final-redhat-1 starting
+2017-10-14 15:50:32,955 INFO  [org.jboss.as.security] (MSC service thread 1-6) WFLYSEC0001: Versión PicketBox actual=4.9.6.Final-redhat-1
+2017-10-14 15:50:33,113 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0004: Implementación del controlador que cumple con los requerimientos de JDBC class org.h2.Driver (versión 1.3)
+2017-10-14 15:50:33,115 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0018: Started Driver service with driver-name = h2
+2017-10-14 15:50:33,663 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 55) WFLYUT0014: Creating file handler for path '/home/sgatius/Documentos/jboss-runtimes/jboss-eap-7.0/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2017-10-14 15:50:33,961 INFO  [org.jboss.as.ejb3] (MSC service thread 1-7) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 128 (per class), which is derived from thread worker pool sizing.
+2017-10-14 15:50:33,962 INFO  [org.jboss.as.ejb3] (MSC service thread 1-1) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 32 (per class), which is derived from the number of CPUs on this host.
+2017-10-14 15:50:33,966 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0001: Fuente de datos enlazados [java:jboss/datasources/ExampleDS]
+2017-10-14 15:50:34,010 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0012: Started server default-server.
+2017-10-14 15:50:34,011 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0018: Host default-host starting
+2017-10-14 15:50:34,096 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-1) WFLYDS0013: Inició FileSystemDeploymentService para el directorio /home/sgatius/Documentos/jboss-runtimes/jboss-eap-7.0/standalone/deployments
+2017-10-14 15:50:34,108 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2017-10-14 15:50:34,760 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-1) ISPN000128: Infinispan version: Infinispan 'Mahou' 8.1.2.Final-redhat-1
+2017-10-14 15:50:34,965 INFO  [org.jboss.ws.common.management] (MSC service thread 1-8) JBWS022052: Starting JBossWS 5.1.3.SP1-redhat-1 (Apache CXF 3.1.4.redhat-1) 
+2017-10-14 15:50:35,116 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Interfaz de administración http escuchando en http://127.0.0.1:9990/management
+2017-10-14 15:50:35,116 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Consola de administración escuchando en http://127.0.0.1:9990
+2017-10-14 15:50:35,117 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: JBoss EAP 7.0.0.GA (WildFly Core 2.1.2.Final-redhat-1) inició en 9568ms - Inició 267 de 553 servicios (371 servicios son perezosos, pasivos o por demanda)
+2017-10-14 15:50:59,111 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 2) WFLYDS0004: Se encontró jboss-javaee-webapp.war en el directorio de implementación. Para disparar la implementación cree un archivo llamado jboss-javaee-webapp.war.dodeploy
+2017-10-14 15:50:59,150 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0027: Iniciando la implementación de jboss-javaee-webapp.war" (runtime-name: "jboss-javaee-webapp.war")
+2017-10-14 15:50:59,772 INFO  [org.jboss.as.jpa] (MSC service thread 1-6) WFLYJPA0002: Leer persistence.xml para primary
+2017-10-14 15:50:59,791 WARN  [org.jboss.as.connector] (MSC service thread 1-6) WFLYJCA0091: Las implementaciones del archivo -ds.xml ya no se utilizan. Es posible que en versiones futuras ya no se soporte.
+2017-10-14 15:51:00,068 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0001: Fuente de datos enlazados [java:jboss/datasources/jboss-javaee-webappDS]
+2017-10-14 15:51:00,070 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 61) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'jboss-javaee-webapp.war#primary'
+2017-10-14 15:51:00,161 INFO  [org.jboss.weld.deployer] (MSC service thread 1-1) WFLYWELD0003: Procesamiento de implementación de soldadura jboss-javaee-webapp.war
+2017-10-14 15:51:00,204 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 61) HHH000204: Processing PersistenceUnitInfo [
+	name: primary
+	...]
+2017-10-14 15:51:00,497 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 61) HHH000412: Hibernate Core {5.0.9.Final-redhat-1}
+2017-10-14 15:51:00,505 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 61) HHH000206: hibernate.properties not found
+2017-10-14 15:51:00,507 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 61) HHH000021: Bytecode provider name : javassist
+2017-10-14 15:51:00,539 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-1) HV000001: Hibernate Validator 5.2.4.Final-redhat-1
+2017-10-14 15:51:00,561 INFO  [org.hibernate.orm.deprecation] (ServerService Thread Pool -- 61) HHH90000001: Found usage of deprecated setting for specifying Scanner [hibernate.ejb.resource_scanner]; use [hibernate.archive.scanner] instead
+2017-10-14 15:51:00,574 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 61) HCANN000001: Hibernate Commons Annotations {5.0.1.Final-redhat-2}
+2017-10-14 15:51:00,709 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-1) WFLYEJB0473: JNDI bindings for session bean named 'MemberRegistration' in deployment unit 'deployment "jboss-javaee-webapp.war"' are as follows:
+
+	java:global/jboss-javaee-webapp/MemberRegistration!org.jboss.tools.examples.service.MemberRegistration
+	java:app/jboss-javaee-webapp/MemberRegistration!org.jboss.tools.examples.service.MemberRegistration
+	java:module/MemberRegistration!org.jboss.tools.examples.service.MemberRegistration
+	java:global/jboss-javaee-webapp/MemberRegistration
+	java:app/jboss-javaee-webapp/MemberRegistration
+	java:module/MemberRegistration
+
+2017-10-14 15:51:00,910 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 61) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-10-14 15:51:00,911 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 61) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-10-14 15:51:00,912 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 61) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-10-14 15:51:00,913 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 61) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-10-14 15:51:00,925 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) WFLYWELD0006: Iniciando servicios para implementación CDI: jboss-javaee-webapp.war
+2017-10-14 15:51:01,110 INFO  [org.jboss.weld.Version] (MSC service thread 1-4) WELD-000900: 2.3.3 (redhat)
+2017-10-14 15:51:01,159 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) WFLYWELD0009: Iniciando servicio de soldadura para implementación jboss-javaee-webapp.war
+2017-10-14 15:51:01,329 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 61) WFLYCLINF0002: Inició client-mappings caché del contenedor ejb 
+2017-10-14 15:51:01,360 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 62) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'jboss-javaee-webapp.war#primary'
+2017-10-14 15:51:01,695 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 62) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2017-10-14 15:51:01,701 WARN  [org.hibernate.dialect.H2Dialect] (ServerService Thread Pool -- 62) HHH000431: Unable to determine H2 database version, certain features may not work
+2017-10-14 15:51:01,758 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 62) Envers integration enabled? : true
+2017-10-14 15:51:02,272 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 62) HHH000227: Running hbm2ddl schema export
+2017-10-14 15:51:02,279 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 62) HHH000476: Executing import script '/import.sql'
+2017-10-14 15:51:02,281 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 62) HHH000230: Schema export complete
+2017-10-14 15:51:03,131 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 63) Inicializando Mojarra 2.2.12-jbossorg-2  para el contexto '/jboss-javaee-webapp'
+2017-10-14 15:51:04,170 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 63) RESTEASY002225: Deploying javax.ws.rs.core.Application: class org.jboss.tools.examples.rest.JaxRsActivator$Proxy$_$$_WeldClientProxy
+2017-10-14 15:51:04,222 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 63) WFLYUT0021: Registered web context: /jboss-javaee-webapp
+2017-10-14 15:51:04,297 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0010: Implementado "jboss-javaee-webapp.war" (runtime-name : "jboss-javaee-webapp.war")
+2017-10-14 15:51:05,803 INFO  [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator] (default task-3) HHH000397: Using ASTQueryTranslatorFactory
+2017-10-14 17:13:02,136 INFO  [org.jboss.as.server] (management-handler-thread - 5) WFLYSRV0236: Suspending server with no timeout.
+2017-10-14 17:13:02,143 INFO  [org.jboss.as.server] (Thread-2) WFLYSRV0220: Server shutdown has been requested.
+2017-10-14 17:13:02,204 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 65) WFLYUT0022: Unregistered web context: /jboss-javaee-webapp
+2017-10-14 17:13:02,223 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0019: Host default-host stopping
+2017-10-14 17:13:02,224 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) WFLYWELD0010: Deteniendo el servicio de soldadura para implementación jboss-javaee-webapp.war
+2017-10-14 17:13:02,239 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0010: Fuente de datos desenlazados [java:jboss/datasources/ExampleDS]
+2017-10-14 17:13:02,239 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 64) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'jboss-javaee-webapp.war#primary'
+2017-10-14 17:13:02,240 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 64) HHH000227: Running hbm2ddl schema export
+2017-10-14 17:13:02,247 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 64) HHH000230: Schema export complete
+2017-10-14 17:13:02,250 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 64) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'jboss-javaee-webapp.war#primary'
+2017-10-14 17:13:02,259 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0019: Stopped Driver service with driver-name = h2
+2017-10-14 17:13:02,261 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 66) WFLYCLINF0003: Se detuvo client-mappings caché del contenedor ejb 
+2017-10-14 17:13:02,264 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0008: Undertow HTTP listener default suspending
+2017-10-14 17:13:02,264 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0028: Se detuvo la implementaciónjboss-javaee-webapp.war (runtime-name: jboss-javaee-webapp.war) en 113ms
+2017-10-14 17:13:02,266 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0007: Undertow HTTP listener default stopped, was bound to 127.0.0.1:8080
+2017-10-14 17:13:02,267 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0004: Undertow 1.3.21.Final-redhat-1 stopping
+2017-10-14 17:13:02,273 INFO  [org.jboss.as] (MSC service thread 1-6) WFLYSRV0050: JBoss EAP 7.0.0.GA (WildFly Core 2.1.2.Final-redhat-1) detenido en 108ms

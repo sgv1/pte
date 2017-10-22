@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;jboss-javaee-webapp&apos;" deleteContents="true" description="Delete resource &apos;jboss-javaee-webapp&apos;" element1="/jboss-javaee-webapp" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1507988888484"/>
+</session>
